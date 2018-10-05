@@ -1,0 +1,78 @@
+/* App */
+.app-header {
+    background-color: #000;
+}
+
+.app-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.app-footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+/* Dropzone */
+.dropzone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    margin: 2rem 0;
+    border: 2px dashed lightgray;
+    cursor: pointer;
+}
+
+.dropzone p {
+    flex: 0 1 auto;
+    margin: 0;
+}
+
+/* Dropped File */
+.dropped-file {
+    margin: 2rem 0 1rem;
+}
+
+.dropped-file img {
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.tag-form {
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* Alert */
+.alert {
+    margin-top: 2rem;
+}
+
+.alert h3 {
+    margin: 0;
+}
+
+/* Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+/* Loading */
+.loading {
+    margin: 0;
+}

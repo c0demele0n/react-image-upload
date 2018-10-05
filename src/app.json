@@ -1,0 +1,27 @@
+{
+    "header": {
+        "title": "react-image-upload",
+        "menu": [
+            {
+                "text": "Upload",
+                "url": "/"
+            },
+            {
+                "text": "Gallery",
+                "url": "/gallery"
+            }
+        ]
+    },
+    "upload": {
+        "headline": "Upload Page",
+        "dropzone": "Try dropping some files here, or click to select files to upload.",
+        "dropped": "Dropped File",
+        "uploaded": "Successfully uploaded"
+    },
+    "gallery": {
+        "headline": "Gallery Page"
+    },
+    "footer": {
+        "copyright": "© codmeleon"
+    }
+}
